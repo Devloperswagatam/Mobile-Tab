@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #D980FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .sub-cont {
+    width: 360px;
+    height: 80vh;
+    background-color: white;
+    border-radius: 11px;
+    box-shadow: #8854d0 0px 0px 40px 0px;
+    
+}
+
+.container .sub-cont .img {
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/09/Abkhazia-sea-mountains-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .sub-cont .img {
+    width: 360px;
+    height: 70vh;
+    border-radius: 11px 11px 0 0;
+    box-shadow: #3867d6 0px -50px 36px -28px inset;
+}
+.container .sub-cont .tabs{
+    width: 360px;
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.container .sub-cont .tabs .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.container .sub-cont .tabs .card i{
+    color: #4b6584;
+}
+.container .sub-cont .tabs .card p{
+    color: #4b6584;
+}
+.container .sub-cont .tabs .card i:hover{
+    color: #D980FA;
+}
+.container .sub-cont .tabs .card p:hover{
+    color: #D980FA;
+}
